@@ -9,6 +9,7 @@
   --bg-primary-color: #040924;
   --bg-input: #DCE2E9;
   --bg-button: #02799D;
+  --bg-button-hover: #055a74;
   --bg-error-top: #F03E3E;
   --border-bottom-input: rgba(73, 80, 87, 0.3);
   --border-outline-input: #02799D;
@@ -27,7 +28,13 @@
 body {
   background-color: var(--bg-primary-color);
   font-family: 'Roboto', sans-serif;
+}
+
+body,
+input,
+button {
   font-size: 1.6rem;
+  line-height: 2rem;
 }
 
 .container {
@@ -48,6 +55,10 @@ body {
 .title {
   font-size: 3.2rem;
   line-height: 4rem;
+}
+
+form {
+  width: 30rem;
 }
 
 form h1 {
@@ -80,4 +91,25 @@ form label {
 
 .input-wrapper+.input-wrapper {
   margin-top: 1.6rem;
+}
+
+button {
+  align-items: center;
+  background-color: var(--bg-button);
+  border: none;
+  border-radius: 0.4rem;
+  color: var(--text-button);
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: 3.2rem;
+  padding: 1.6rem;
+  transition: 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: var(--bg-button-hover);
 }
