@@ -3,3 +3,17 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* === COLOR PROPERTIES === */
+  --bg-primary-color: #040924;
+
+  /* === FONT PROPERTIES === */
+  font-size: 62.5%;
+
+}
+
+body {
+  background-color: var(--bg-primary-color);
+  font-size: 1.6rem;
+}
