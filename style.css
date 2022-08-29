@@ -7,13 +7,38 @@
 :root {
   /* === COLOR PROPERTIES === */
   --bg-primary-color: #040924;
+  --bg-button: #02799D;
+  --bg-error-top: #F03E3E;
+  --border-top-input: #02799D;
+  --border-bottom-input: rgba(73, 80, 87, 0.3);
+  --title-heading: #0C3440;
+  --title-label: #00453A;
+  --text-button: white;
+  --text-error-top: white;
+  --text-input: #212529;
+  --text-placeholder-input: rgba(73, 80, 87, 0.5);
 
   /* === FONT PROPERTIES === */
   font-size: 62.5%;
-
 }
 
 body {
   background-color: var(--bg-primary-color);
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.6rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 4.8rem 6.4rem 6.4rem;
+  margin-inline: auto;
+  max-width: 42.8rem;
 }
