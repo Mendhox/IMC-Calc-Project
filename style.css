@@ -7,10 +7,12 @@
 :root {
   /* === COLOR PROPERTIES === */
   --bg-primary-color: #040924;
+  --bg-input: #DCE2E9;
   --bg-button: #02799D;
   --bg-error-top: #F03E3E;
-  --border-top-input: #02799D;
   --border-bottom-input: rgba(73, 80, 87, 0.3);
+  --border-outline-input: #02799D;
+  --border-top-input: #02799D;
   --title-heading: #0C3440;
   --title-label: #00453A;
   --text-button: white;
@@ -41,4 +43,41 @@ body {
   padding: 4.8rem 6.4rem 6.4rem;
   margin-inline: auto;
   max-width: 42.8rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+form h1 {
+  margin-bottom: 3.2rem;
+}
+
+form input {
+  background-color: var(--bg-input);
+  border: 1px solid var(--border-top-input);
+  border-radius: 0.4rem;
+  padding: 1.6rem;
+  width: 100%;
+}
+
+form input:focus {
+  outline: 2px solid var(--border-outline-input);
+}
+
+form input::placeholder {
+  color: var(--text-placeholder-input);
+}
+
+form label {
+  color: var(--title-label);
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.input-wrapper+.input-wrapper {
+  margin-top: 1.6rem;
 }
