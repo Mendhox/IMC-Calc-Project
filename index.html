@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Styles -->
-  <title>IMC Calculator</title>
+  <title>BMI Calculator</title>
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
@@ -24,7 +24,7 @@
   <div class="container">
     <main class="card">
       <form action="">
-        <h1 class="title">IMC Calc</h1>
+        <h1 class="title">Body Mass Index Calc</h1>
         <div class="input-wrapper">
           <label for="weight">Weight (kg)</label>
           <input id="weight" type="text" placeholder="your weight">
@@ -39,6 +39,18 @@
         </button>
       </form>
     </main>
+  </div>
+
+  <div class="modal-wrapper open">
+    <div class="modal card">
+      <h2 class="title">
+        <button class="close">
+          <img src="./assets/close.svg" alt="X icon to close the pop-up">
+        </button>
+        Your BMI is
+      </h2>
+
+    </div>
   </div>
 </body>
 
