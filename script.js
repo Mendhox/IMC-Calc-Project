@@ -27,11 +27,10 @@ form.onsubmit = event => {
   const message = `Your BMI is ${result}`
 
   Modal.message.innerText = message
-  // modalWrapper.classList.add('open')
   Modal.open()
 }
 
-Modal.buttonClose.onclick = () => Modal.close() //modalWrapper.classList.remove('open')
+Modal.buttonClose.onclick = () => Modal.close()
 
 function IMC(weight, height) {
   return (weight / (height / 100) ** 2).toFixed(2)
