@@ -5,6 +5,7 @@ import { notANumber, calculateIMC } from './utility.js'
 const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
+const btnCloseAfterImcMessage = document.querySelector('.modal button.close')
 
 form.onsubmit = event => {
   event.preventDefault()
@@ -23,6 +24,16 @@ form.onsubmit = event => {
 
   const result = calculateIMC(weight, height)
   displayResultMessage(result)
+  form.reset()
+  inputWeight.focus()
+}
+
+window.addEventListener('input', AlertError.close)
+window.addEventListener('click', AlertError.close)
+btnCloseAfterImcMessage.addEventListener('click', InputFocusWeightOnClose)
+
+function InputFocusWeightOnClose() {
+  inputWeight.focus()
 }
 
 function displayResultMessage(result) {
