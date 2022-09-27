@@ -2,6 +2,10 @@
 
 <img src="./img/imc_calc.png" alt="Project Snapshot">
 
+
+https://user-images.githubusercontent.com/69018784/192610080-df6018ba-4360-477f-870e-1065eca93950.mp4
+
+
 <h2 id="about">About the project</h2>
 
 <ul>
