@@ -8,7 +8,8 @@ https://user-images.githubusercontent.com/69018784/192612300-77d4b0d9-426c-4648-
 <h2 id="about">About the project</h2>
 
 <ul>
- <p>In this challenge I had to create an application from a Figma layout in order to practice what I learned in the Stage 05.</p>  
+ <p>In this challenge I had to create an application from a Figma layout in order to practice what I learned in the Stage 05.</p> 
+ <a href="https://mendhox.github.io/IMC-Calc-Project/" target="_blank">View Page</a>
 </ul>
 <p>Main skills learned</p>
 <ul>
