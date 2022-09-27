@@ -1,9 +1,6 @@
 <h1>Project - Body Mass Index Calc</h1>
 
-<img src="./img/imc_calc.png" alt="Project Snapshot">
-
 https://user-images.githubusercontent.com/69018784/192612300-77d4b0d9-426c-4648-b592-284c1e017e64.mp4
-
 
 <h2 id="about">About the project</h2>
 
